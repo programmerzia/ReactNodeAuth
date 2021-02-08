@@ -1,0 +1,35 @@
+.sidebar{
+    display: block;
+    float: left;
+    background-color: aqua;
+    width: 30%;
+}
+.main-content{
+    display: block;
+    overflow: hidden;
+    width: 70%;
+    float: right;
+}
+.sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar ul li{
+    border-bottom: 1px solid grey;
+}
+.sidebar ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: green;
+    padding: 5px 20px;
+}
+.sidebar ul li a:hover{
+    background-color: greenyellow;
+}
+.active{
+    font-weight: bold;
+    color: maroon;
+}

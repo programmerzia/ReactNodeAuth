@@ -1,0 +1,13 @@
+.register-screen{
+    width: 400px;
+    margin: 0 auto;
+}
+.register-screen h2{
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+.register-screen__form{
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 3px;
+}
